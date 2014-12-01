@@ -1,0 +1,4 @@
+The simplest webapp possible run with groovy.
+The run_it.sh script will start up the webapp, 
+once it loads, open a browser to localhost:8080 
+

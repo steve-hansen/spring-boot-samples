@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- =======================================================================
+     | Copyright Access Development. All rights reserved.
+     +-->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!--
+         | Encoders are assigned the type
+         |      ch.qos.logback.classic.encoder.PatternLayoutEncoder by default
+         +-->
+        <encoder>
+            <!-- For Desc : http://logback.qos.ch/manual/layouts.html#ClassicPatternLayout +-->
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- =======================================================================
+     | Define logging levels here!
+     +-->
+    <!--logger name="ad">  <level value="INFO"  /> </logger-->
+    <logger name="com.hansen">
+        <level value="DEBUG"/>
+    </logger>
+
+
+    <!-- =======================================================================
+     | Appenders
+     +-->
+    <root level="ERROR">
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>

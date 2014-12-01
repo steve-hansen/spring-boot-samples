@@ -1,0 +1,6 @@
+After building this webapp with maven, the run_it.sh will get the webapp running. 
+Once the webapp loads, open a browser to localhost:8080 
+
+This webapp is running using Spring Boot (no Spring Data).
+
+
