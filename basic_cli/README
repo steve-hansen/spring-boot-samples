@@ -1,0 +1,5 @@
+A simple Spring Boot cli ... initial project generated from http://start.spring.io/
+
+Once compiled by maven, the run_it.sh will run the cli
+
+
